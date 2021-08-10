@@ -153,7 +153,7 @@ oncut="return false;" >
 			<!--header -->
 	  <header>
 <!--				<h1><span id="logo"><img src="images/logo1.png" alt="" usemap="#logo"></span></h1>-->
-				<h1><span id="logo"><img src="images/love.jpg" alt="" usemap="#logo"></span></h1>
+				<h1><span id="logo"><img src="images/love.png" alt="" usemap="#logo"></span></h1>
 				<nav class="menu">
 					<ul id="menu">
 						<li id="nav1"><img src="images/nav1.png" alt=""><span>爱的宣誓</span></li>
@@ -179,11 +179,12 @@ oncut="return false;" >
 						<span class="back"><img src="images/nav1.png" alt="" usemap="#back"><a href="index.html#close">返回</a></span>
 						<div class="pad">
 							<h2>爱的宣誓</h2>
-                            人物：浟佳 &amp; 宝贝<br />
+                            人物：贵 &amp; 宝贝<br />
                             不在乎曾经拥有，只在乎天长地久。<br />
                             爱，就要说出来！<br />
                             再美好的回忆，也只是回忆；<br />
                             再美丽的诺言，不到实现的那一刻，也只是一句空话。<br/>
+                            在未来的人生长河里，我会用行动去诠释爱。我爱你！<br/>
                               -- 						</div>
 					</li>
 					<li id="page_About">
@@ -193,12 +194,16 @@ oncut="return false;" >
 							<h2>恋爱历程</h2>
 							<div class="relative">
 								<div class="scroll">
-                                    <span>人物：浟佳 &amp; 宝贝</span>
+                                    <span>人物：李狗蛋 &amp; 宝贝</span>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;宝贝你还记得么？</p>
-                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;XX年X月X日。</p>
-                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;我们在xx相遇。</p>
-                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;然后.........</p>
-                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;过程.........</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;2020年02月23日。</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;我们相识相遇。</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;然后触膝长谈至凌晨4点,</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;人生观，家庭观，爱情观。。。</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;2020年02月26日，我们确定了情侣关系。</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;从此开始了甜甜蜜蜜，相爱相杀的生活。</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;还好，我们都不放弃彼此，走到了现在，500多个日日夜夜。</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;我坚信，我们的的未来还有无数个500天。</p>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;我爱你，我会一直陪在你身边</p>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp;不离不弃</p>
                                     <p>&nbsp;&nbsp;&nbsp;&nbsp; -  </p>
@@ -213,11 +218,12 @@ oncut="return false;" >
 							<h2>絮叨絮叨</h2>
                             <div class="relative">
                                 <div class="scroll">
-                                    <div style="width:100%;float: left; border-bottom: 1px solid #CCCCCC;">浟佳<br/><span style="float: right"> --by </span></div>
+                                    <div style="width:100%;float: left; border-bottom: 1px solid #CCCCCC;">媳妇儿<br/><span style="float: right"> --by </span></div>
 
 
 
-                                    <div style="width:100%;float: left">分享我所知道的<br/><span style="float: right"> --by </span></div>
+                                    <div style="width:100%;float: left">我想你每天多一点开心！<br/><span style="float: right"> --by </span></div>
+                                    <div style="width:100%;float: left">我想你每天都吃饭<br/><span style="float: right"> --by </span></div>
                                 </div>
                             </div>
 						</div>
@@ -320,8 +326,8 @@ $(window).load(function() {
     var offsetX = $("#loveHeart").width() / 2;
     var offsetY = $("#loveHeart").height() / 2 - 55;
     var together = new Date();
-    together.setFullYear(2020, 02, 26);
-    together.setHours(3);
+    together.setFullYear(2020, 1, 26);
+    together.setHours(0);
     together.setMinutes(0);
     together.setSeconds(0);
     together.setMilliseconds(0);
@@ -329,7 +335,7 @@ $(window).load(function() {
         setTimeout(function () {
             adjustWordsPosition();
             startHeartAnimation();
-        }, 3000);
+        }, 5000);
 
         timeElapse(together);
         setInterval(function () {
